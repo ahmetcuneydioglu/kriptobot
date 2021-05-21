@@ -1,0 +1,191 @@
+2021-05-08 03:44:51,567 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-08 03:44:51,571 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-08 03:44:55,985 - ERROR - root - Timed out - {'update_id': 406256825, 'message': {'message_id': 7917, 'date': 1620332165, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-08 03:44:55,986 - ERROR - JobQueue - An uncaught error was raised while executing job _send_msg
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 70, in request
+    **urlopen_kw)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 169, in _send_msg
+    plgn.get_action(bot, updt, args=args)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 106, in _save_data
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 73, in _send_typing_action
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/price.py", line 149, in get_action
+    self.send_msg(msg, update, keywords)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 144, in send_msg
+    disable_notification=not notify)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 205, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 172, in _send_msg
+    self.tgb.db.delete_rep(rep)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/database.py", line 194, in delete_rep
+    [repeater_id])
+sqlite3.InterfaceError: Error binding parameter 0 - probably unsupported type.
+2021-05-08 03:44:56,780 - ERROR - root - Replied message not found - {'update_id': 406256827, 'message': {'message_id': 7920, 'date': 1620332268, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/p eth', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-08 03:44:56,781 - ERROR - JobQueue - An uncaught error was raised while executing job _send_msg
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 169, in _send_msg
+    plgn.get_action(bot, updt, args=args)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 106, in _save_data
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 73, in _send_typing_action
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/price.py", line 149, in get_action
+    self.send_msg(msg, update, keywords)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 144, in send_msg
+    disable_notification=not notify)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 223, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Replied message not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 172, in _send_msg
+    self.tgb.db.delete_rep(rep)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/database.py", line 194, in delete_rep
+    [repeater_id])
+sqlite3.InterfaceError: Error binding parameter 0 - probably unsupported type.
+2021-05-08 03:45:27,035 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-08 03:45:27,036 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-08 03:46:02,546 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-08 03:46:02,546 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-08 03:46:37,259 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-08 03:46:37,260 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-08 03:48:10,161 - INFO - root - Plugin 'Update' added
+2021-05-08 03:48:10,166 - INFO - root - Plugin 'Backup' added
+2021-05-08 03:48:10,172 - INFO - root - Plugin 'Social' added
+2021-05-08 03:48:10,187 - INFO - root - Plugin 'Description' added
+2021-05-08 03:48:10,216 - INFO - root - Plugin 'Feedback' added
+2021-05-08 03:48:10,218 - INFO - root - Plugin 'Market' added
+2021-05-08 03:48:10,220 - INFO - root - Plugin 'About' added
+2021-05-08 03:48:10,228 - INFO - root - Plugin 'Events' added
+2021-05-08 03:48:10,235 - INFO - root - Plugin 'Top' added
+2021-05-08 03:48:10,236 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-08 03:48:10,236 - INFO - root - Plugin 'Exchanges' added
+2021-05-08 03:48:10,238 - INFO - root - Plugin 'Volume' added
+2021-05-08 03:48:10,240 - INFO - root - Plugin 'Manual' added
+2021-05-08 03:48:10,240 - INFO - root - Plugin 'People' added
+2021-05-08 03:48:10,255 - INFO - root - Plugin 'Search' added
+2021-05-08 03:48:10,257 - INFO - root - Plugin 'Repeat' added
+2021-05-08 03:48:10,257 - INFO - root - Plugin 'Roi' added
+2021-05-08 03:48:10,257 - INFO - root - Plugin 'Restart' added
+2021-05-08 03:48:10,259 - INFO - root - Plugin 'Donate' added
+2021-05-08 03:48:10,262 - INFO - root - Plugin 'Logfile' added
+2021-05-08 03:48:10,269 - INFO - root - Plugin 'Admin' added
+2021-05-08 03:48:10,270 - INFO - root - Plugin 'Start' added
+2021-05-08 03:48:10,270 - INFO - root - Plugin 'Shutdown' added
+2021-05-08 03:48:10,271 - INFO - root - Plugin 'Pools' added
+2021-05-08 03:48:10,274 - INFO - root - Plugin 'Value' added
+2021-05-08 03:48:10,275 - INFO - root - Plugin 'Team' added
+2021-05-08 03:48:10,281 - INFO - root - Plugin 'Decentralized' added
+2021-05-08 03:48:10,286 - INFO - root - Plugin 'Stats' added
+2021-05-08 03:48:10,287 - INFO - root - Plugin 'Wallets' added
+2021-05-08 03:48:10,287 - INFO - root - Plugin 'Help' added
+2021-05-08 03:48:10,288 - INFO - root - Plugin 'Worst' added
+2021-05-08 03:48:10,294 - INFO - root - Plugin 'Fiftyone' added
+2021-05-08 03:48:10,295 - INFO - root - Plugin 'Bpmn' added
+2021-05-08 03:48:10,309 - INFO - root - Plugin 'Compare' added
+2021-05-08 03:48:10,309 - INFO - root - Plugin 'Info' added
+2021-05-08 03:48:10,310 - INFO - root - Plugin 'Developer' added
+2021-05-08 03:48:10,310 - INFO - root - Plugin 'Marketcap' added
+2021-05-08 03:48:10,313 - INFO - root - Plugin 'News' added
+2021-05-08 03:48:10,315 - INFO - root - Plugin 'Ico' added
+2021-05-08 03:48:10,315 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-08 03:48:10,318 - INFO - root - Plugin 'Best' added
+2021-05-08 03:48:10,326 - INFO - root - Plugin 'Change' added
+2021-05-08 03:48:10,327 - INFO - root - Plugin 'Price' added
+2021-05-08 03:48:10,535 - INFO - root - Plugin 'Whitepaper' added
+2021-05-08 03:48:10,781 - INFO - root - Plugin 'Twitter' added
+2021-05-08 03:48:13,104 - INFO - root - Plugin 'Global' added
+2021-05-08 03:48:13,105 - INFO - root - Plugin 'Chart' added
+2021-05-08 03:48:13,111 - INFO - root - Plugin 'Trends' added
+2021-05-08 03:48:13,220 - INFO - root - Plugin 'Candlestick' added
+2021-05-08 03:48:13,223 - INFO - root - Starting Caching
+2021-05-08 03:48:15,919 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-08 03:48:16,247 - ERROR - root - HTTPError('404 Client Error: Not Found for url: https://api.github.com/repos/None/None/releases/latest')

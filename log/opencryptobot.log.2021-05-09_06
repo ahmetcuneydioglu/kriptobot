@@ -1,0 +1,333 @@
+2021-05-09 07:44:27,865 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:44:27,867 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:45:02,063 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:45:02,064 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:45:36,264 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:45:36,265 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:46:10,575 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:46:10,575 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:46:44,732 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:46:44,733 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:47:18,891 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:47:18,891 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:47:53,072 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:47:53,072 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:48:27,222 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:48:27,222 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:49:01,380 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:49:01,380 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:49:35,544 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:49:35,545 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:50:09,698 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:50:09,699 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:50:43,856 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:50:43,856 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:51:18,011 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:51:18,012 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:51:52,162 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:51:52,163 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:52:26,393 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:52:26,394 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:53:00,583 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:53:00,584 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:53:34,889 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:53:34,890 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:54:09,091 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:54:09,092 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:54:43,297 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:54:43,298 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:55:17,501 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:55:17,502 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:55:51,701 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:55:51,702 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:56:26,214 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:56:26,214 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:57:00,365 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:57:00,365 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:57:34,815 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:57:34,815 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:58:09,004 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:58:09,004 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:58:43,192 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:58:43,193 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:59:17,425 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:59:17,426 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 07:59:51,635 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 07:59:51,635 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:00:25,932 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:00:25,933 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:00:53,996 - ERROR - root - Timed out - {'update_id': 406256825, 'message': {'message_id': 7917, 'date': 1620332165, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-09 08:00:53,997 - ERROR - JobQueue - An uncaught error was raised while executing job _send_msg
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 1369, in getresponse
+    response.begin()
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/http/client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/ahmetcnd/.pyenv/versions/3.7.10/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 70, in request
+    **urlopen_kw)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 169, in _send_msg
+    plgn.get_action(bot, updt, args=args)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 106, in _save_data
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 73, in _send_typing_action
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/price.py", line 149, in get_action
+    self.send_msg(msg, update, keywords)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 144, in send_msg
+    disable_notification=not notify)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 205, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 172, in _send_msg
+    self.tgb.db.delete_rep(rep)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/database.py", line 194, in delete_rep
+    [repeater_id])
+sqlite3.InterfaceError: Error binding parameter 0 - probably unsupported type.
+2021-05-09 08:00:54,731 - ERROR - root - Replied message not found - {'update_id': 406256827, 'message': {'message_id': 7920, 'date': 1620332268, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/p eth', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-09 08:00:54,732 - ERROR - JobQueue - An uncaught error was raised while executing job _send_msg
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 169, in _send_msg
+    plgn.get_action(bot, updt, args=args)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 106, in _save_data
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 73, in _send_typing_action
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/price.py", line 149, in get_action
+    self.send_msg(msg, update, keywords)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 144, in send_msg
+    disable_notification=not notify)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/utils/request.py", line 223, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Replied message not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/repeat.py", line 172, in _send_msg
+    self.tgb.db.delete_rep(rep)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/database.py", line 194, in delete_rep
+    [repeater_id])
+sqlite3.InterfaceError: Error binding parameter 0 - probably unsupported type.
+2021-05-09 08:01:00,133 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:01:00,134 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:01:34,335 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:01:34,336 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:02:08,540 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:02:08,540 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:02:43,328 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:02:43,329 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:03:17,567 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:03:17,568 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:03:51,748 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:03:51,749 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:04:25,959 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:04:25,960 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:05:00,110 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:05:00,111 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:05:34,672 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:05:34,673 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:06:08,839 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:06:08,839 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:06:43,076 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:06:43,077 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:07:17,279 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:07:17,279 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:07:51,889 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:07:51,890 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:08:26,054 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:08:26,054 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:09:00,233 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:09:00,233 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:09:34,492 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:09:34,493 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:10:08,798 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:10:08,798 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:10:42,999 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:10:42,999 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:11:17,200 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:11:17,201 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:11:51,404 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:11:51,405 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:12:25,603 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:12:25,604 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:12:59,806 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:12:59,806 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:13:34,008 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:13:34,008 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:14:08,210 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:14:08,210 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:14:42,414 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:14:42,414 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:15:16,614 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:15:16,614 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:15:50,781 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:15:50,782 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:16:25,019 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:16:25,020 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:16:59,247 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:16:59,248 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:17:33,408 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:17:33,408 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:18:07,624 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:18:07,625 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:18:41,827 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:18:41,827 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:19:16,391 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:19:16,392 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:19:50,639 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:19:50,639 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:20:24,840 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:20:24,841 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:20:59,044 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:20:59,045 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:21:33,347 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:21:33,347 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:22:07,549 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:22:07,549 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:22:41,752 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:22:41,752 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:23:15,952 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:23:15,953 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:23:50,155 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:23:50,155 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:24:24,355 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:24:24,355 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:24:58,556 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:24:58,558 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:25:32,761 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:25:32,761 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:26:06,914 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:26:06,915 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:26:41,165 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:26:41,165 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:27:15,364 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:27:15,365 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:27:49,569 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:27:49,570 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:28:23,770 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:28:23,770 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:28:57,928 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:28:57,929 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:29:32,197 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:29:32,197 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:30:06,374 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:30:06,374 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:30:40,576 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:30:40,576 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:31:14,780 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:31:14,781 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:31:48,981 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:31:48,982 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:32:23,188 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:32:23,188 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:32:57,487 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:32:57,488 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:33:31,690 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:33:31,690 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:34:06,301 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:34:06,302 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:34:40,603 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:34:40,603 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:35:14,805 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:35:14,806 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:35:49,007 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:35:49,008 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:36:23,225 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:36:23,225 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:36:57,412 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:36:57,412 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:37:31,717 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:37:31,718 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:38:05,917 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:38:05,917 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:38:40,097 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:38:40,097 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:39:14,245 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:39:14,246 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:39:48,401 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:39:48,401 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:40:22,561 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:40:22,562 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:40:56,801 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:40:56,801 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:41:31,003 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:41:31,003 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:42:05,610 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:42:05,611 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:42:39,813 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:42:39,814 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:43:14,322 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:43:14,323 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:43:48,471 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:43:48,471 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-09 08:44:22,728 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-09 08:44:22,728 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None

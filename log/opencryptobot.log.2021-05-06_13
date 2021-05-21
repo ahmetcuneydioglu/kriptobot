@@ -1,0 +1,344 @@
+2021-05-06 12:40:28,549 - INFO - root - Plugin 'Backup' added
+2021-05-06 12:40:28,566 - INFO - root - Plugin 'Top' added
+2021-05-06 12:40:28,593 - INFO - root - Plugin 'About' added
+2021-05-06 12:40:28,605 - INFO - root - Plugin 'Feedback' added
+2021-05-06 12:40:28,609 - INFO - root - Plugin 'Logfile' added
+2021-05-06 12:40:28,609 - INFO - root - Plugin 'Social' added
+2021-05-06 12:40:28,610 - INFO - root - Plugin 'Exchanges' added
+2021-05-06 12:40:28,611 - INFO - root - Plugin 'Update' added
+2021-05-06 12:40:28,631 - INFO - root - Plugin 'Restart' added
+2021-05-06 12:40:28,643 - INFO - root - Plugin 'Pools' added
+2021-05-06 12:40:28,649 - INFO - root - Plugin 'Start' added
+2021-05-06 12:40:28,651 - INFO - root - Plugin 'Marketcap' added
+2021-05-06 12:40:28,671 - INFO - root - Plugin 'Stats' added
+2021-05-06 12:40:28,675 - INFO - root - Plugin 'Admin' added
+2021-05-06 12:40:28,690 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-06 12:40:28,690 - INFO - root - Plugin 'People' added
+2021-05-06 12:40:28,691 - INFO - root - Plugin 'Wallets' added
+2021-05-06 12:40:28,692 - INFO - root - Plugin 'Bpmn' added
+2021-05-06 12:40:28,694 - INFO - root - Plugin 'Help' added
+2021-05-06 12:40:28,694 - INFO - root - Plugin 'Developer' added
+2021-05-06 12:40:28,695 - INFO - root - Plugin 'Info' added
+2021-05-06 12:40:28,695 - INFO - root - Plugin 'Search' added
+2021-05-06 12:40:28,697 - INFO - root - Plugin 'Events' added
+2021-05-06 12:40:28,698 - INFO - root - Plugin 'Description' added
+2021-05-06 12:40:28,700 - INFO - root - Plugin 'Value' added
+2021-05-06 12:40:28,700 - INFO - root - Plugin 'Shutdown' added
+2021-05-06 12:40:28,701 - INFO - root - Plugin 'Ico' added
+2021-05-06 12:40:28,701 - INFO - root - Plugin 'Roi' added
+2021-05-06 12:40:28,707 - INFO - root - Plugin 'Team' added
+2021-05-06 12:40:28,708 - INFO - root - Plugin 'Change' added
+2021-05-06 12:40:28,710 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-06 12:40:28,715 - INFO - root - Plugin 'Market' added
+2021-05-06 12:40:28,715 - INFO - root - Plugin 'Donate' added
+2021-05-06 12:40:28,717 - INFO - root - Plugin 'Fiftyone' added
+2021-05-06 12:40:28,719 - INFO - root - Plugin 'Compare' added
+2021-05-06 12:40:28,720 - INFO - root - Plugin 'Manual' added
+2021-05-06 12:40:28,720 - INFO - root - Plugin 'Worst' added
+2021-05-06 12:40:28,728 - INFO - root - Plugin 'News' added
+2021-05-06 12:40:28,728 - INFO - root - Plugin 'Best' added
+2021-05-06 12:40:28,728 - INFO - root - Plugin 'Decentralized' added
+2021-05-06 12:40:28,731 - INFO - root - Plugin 'Volume' added
+2021-05-06 12:40:28,737 - INFO - root - Plugin 'Repeat' added
+2021-05-06 12:40:28,752 - INFO - root - Plugin 'Price' added
+2021-05-06 12:40:29,028 - INFO - root - Plugin 'Whitepaper' added
+2021-05-06 12:40:29,247 - INFO - root - Plugin 'Twitter' added
+2021-05-06 12:40:32,441 - INFO - root - Plugin 'Global' added
+2021-05-06 12:40:32,443 - INFO - root - Plugin 'Chart' added
+2021-05-06 12:40:32,448 - INFO - root - Plugin 'Trends' added
+2021-05-06 12:40:32,554 - INFO - root - Plugin 'Candlestick' added
+2021-05-06 12:40:32,557 - INFO - root - Starting Caching
+2021-05-06 12:40:35,782 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-06 12:56:01,566 - INFO - root - Plugin 'Backup' added
+2021-05-06 12:56:01,589 - INFO - root - Plugin 'Description' added
+2021-05-06 12:56:01,590 - INFO - root - Plugin 'Volume' added
+2021-05-06 12:56:01,590 - INFO - root - Plugin 'About' added
+2021-05-06 12:56:01,592 - INFO - root - Plugin 'Stats' added
+2021-05-06 12:56:01,593 - INFO - root - Plugin 'Shutdown' added
+2021-05-06 12:56:01,594 - INFO - root - Plugin 'Update' added
+2021-05-06 12:56:01,604 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-06 12:56:01,608 - INFO - root - Plugin 'People' added
+2021-05-06 12:56:01,616 - INFO - root - Plugin 'Logfile' added
+2021-05-06 12:56:01,616 - INFO - root - Plugin 'Start' added
+2021-05-06 12:56:01,618 - INFO - root - Plugin 'Bpmn' added
+2021-05-06 12:56:01,620 - INFO - root - Plugin 'Developer' added
+2021-05-06 12:56:01,622 - INFO - root - Plugin 'Compare' added
+2021-05-06 12:56:01,624 - INFO - root - Plugin 'Ico' added
+2021-05-06 12:56:01,625 - INFO - root - Plugin 'Repeat' added
+2021-05-06 12:56:01,626 - INFO - root - Plugin 'Manual' added
+2021-05-06 12:56:01,632 - INFO - root - Plugin 'Restart' added
+2021-05-06 12:56:01,633 - INFO - root - Plugin 'Change' added
+2021-05-06 12:56:01,634 - INFO - root - Plugin 'Feedback' added
+2021-05-06 12:56:01,636 - INFO - root - Plugin 'Market' added
+2021-05-06 12:56:01,637 - INFO - root - Plugin 'Exchanges' added
+2021-05-06 12:56:01,638 - INFO - root - Plugin 'Social' added
+2021-05-06 12:56:01,639 - INFO - root - Plugin 'Roi' added
+2021-05-06 12:56:01,639 - INFO - root - Plugin 'Donate' added
+2021-05-06 12:56:01,642 - INFO - root - Plugin 'Search' added
+2021-05-06 12:56:01,645 - INFO - root - Plugin 'Top' added
+2021-05-06 12:56:01,657 - INFO - root - Plugin 'Value' added
+2021-05-06 12:56:01,658 - INFO - root - Plugin 'Team' added
+2021-05-06 12:56:01,664 - INFO - root - Plugin 'Marketcap' added
+2021-05-06 12:56:01,665 - INFO - root - Plugin 'Admin' added
+2021-05-06 12:56:01,673 - INFO - root - Plugin 'Help' added
+2021-05-06 12:56:01,682 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-06 12:56:01,695 - INFO - root - Plugin 'Worst' added
+2021-05-06 12:56:01,700 - INFO - root - Plugin 'Events' added
+2021-05-06 12:56:01,702 - INFO - root - Plugin 'News' added
+2021-05-06 12:56:01,703 - INFO - root - Plugin 'Fiftyone' added
+2021-05-06 12:56:01,704 - INFO - root - Plugin 'Pools' added
+2021-05-06 12:56:01,706 - INFO - root - Plugin 'Decentralized' added
+2021-05-06 12:56:01,718 - INFO - root - Plugin 'Best' added
+2021-05-06 12:56:01,719 - INFO - root - Plugin 'Info' added
+2021-05-06 12:56:01,734 - INFO - root - Plugin 'Price' added
+2021-05-06 12:56:01,737 - INFO - root - Plugin 'Wallets' added
+2021-05-06 12:56:01,935 - INFO - root - Plugin 'Whitepaper' added
+2021-05-06 12:56:02,120 - INFO - root - Plugin 'Twitter' added
+2021-05-06 12:56:04,747 - INFO - root - Plugin 'Global' added
+2021-05-06 12:56:04,748 - INFO - root - Plugin 'Chart' added
+2021-05-06 12:56:04,753 - INFO - root - Plugin 'Trends' added
+2021-05-06 12:56:04,850 - INFO - root - Plugin 'Candlestick' added
+2021-05-06 12:56:04,853 - INFO - root - Starting Caching
+2021-05-06 12:56:06,229 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:06,230 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:10,351 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:10,351 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:11,436 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:11,436 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:16,183 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:16,183 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:17,546 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-06 12:56:17,757 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:17,757 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:23,142 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:23,142 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:25,471 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:25,471 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:28,919 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:28,919 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:32,386 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:32,386 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:37,608 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:38,199 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:41,776 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:42,843 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:42,844 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:47,532 - ERROR - root - Timed out - {'update_id': 406256740, 'message': {'message_id': 176, 'date': 1620294997, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'en'}}}
+2021-05-06 12:56:47,714 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:47,979 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:47,980 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:49,287 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:49,287 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:54,613 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:54,614 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:56:56,940 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:56:56,941 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:00,389 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:00,390 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:03,840 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:03,841 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:08,979 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:08,980 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:14,121 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:14,122 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:21,793 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:21,793 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:29,460 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:29,461 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:40,933 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:40,934 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:57:45,366 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:57:45,366 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:58:02,528 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:58:02,529 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:58:06,665 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:58:06,665 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:58:32,646 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:58:32,647 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:58:36,912 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:58:36,912 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:59:15,448 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:59:15,449 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:59:19,523 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:59:19,524 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:59:49,595 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:59:49,596 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 12:59:53,672 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 12:59:53,672 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:23,924 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:23,925 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:27,999 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:29,077 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:29,077 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:33,671 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:34,200 - ERROR - root - Timed out - {'update_id': 406256741, 'message': {'message_id': 179, 'date': 1620295224, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'en'}}}
+2021-05-06 13:00:35,150 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:35,150 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:35,308 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:35,308 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:40,847 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:40,848 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:43,178 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:43,179 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:46,627 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:46,628 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:50,362 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:50,363 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:00:55,495 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:00:55,496 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:01:00,639 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:01:00,640 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:01:08,303 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:01:08,304 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:01:15,980 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:01:15,981 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:01:27,442 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:01:27,443 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:01:31,525 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:01:31,526 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:01:51,943 - ERROR - telegram.ext.updater - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409)
+2021-05-06 13:01:51,943 - ERROR - root - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running (409) - Class: TelegramBot - None
+2021-05-06 13:02:10,890 - INFO - root - Plugin 'Backup' added
+2021-05-06 13:02:10,907 - INFO - root - Plugin 'Update' added
+2021-05-06 13:02:10,934 - INFO - root - Plugin 'Repeat' added
+2021-05-06 13:02:10,938 - INFO - root - Plugin 'Manual' added
+2021-05-06 13:02:10,963 - INFO - root - Plugin 'Feedback' added
+2021-05-06 13:02:10,963 - INFO - root - Plugin 'About' added
+2021-05-06 13:02:10,966 - INFO - root - Plugin 'Admin' added
+2021-05-06 13:02:10,971 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-06 13:02:10,973 - INFO - root - Plugin 'Donate' added
+2021-05-06 13:02:10,978 - INFO - root - Plugin 'Value' added
+2021-05-06 13:02:10,985 - INFO - root - Plugin 'Social' added
+2021-05-06 13:02:10,991 - INFO - root - Plugin 'Exchanges' added
+2021-05-06 13:02:10,993 - INFO - root - Plugin 'Logfile' added
+2021-05-06 13:02:10,994 - INFO - root - Plugin 'Roi' added
+2021-05-06 13:02:10,996 - INFO - root - Plugin 'Market' added
+2021-05-06 13:02:10,998 - INFO - root - Plugin 'Developer' added
+2021-05-06 13:02:11,000 - INFO - root - Plugin 'People' added
+2021-05-06 13:02:11,001 - INFO - root - Plugin 'Events' added
+2021-05-06 13:02:11,010 - INFO - root - Plugin 'Volume' added
+2021-05-06 13:02:11,012 - INFO - root - Plugin 'Search' added
+2021-05-06 13:02:11,014 - INFO - root - Plugin 'Description' added
+2021-05-06 13:02:11,014 - INFO - root - Plugin 'Marketcap' added
+2021-05-06 13:02:11,015 - INFO - root - Plugin 'Bpmn' added
+2021-05-06 13:02:11,016 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-06 13:02:11,017 - INFO - root - Plugin 'Best' added
+2021-05-06 13:02:11,018 - INFO - root - Plugin 'Change' added
+2021-05-06 13:02:11,020 - INFO - root - Plugin 'Stats' added
+2021-05-06 13:02:11,037 - INFO - root - Plugin 'Info' added
+2021-05-06 13:02:11,038 - INFO - root - Plugin 'Wallets' added
+2021-05-06 13:02:11,044 - INFO - root - Plugin 'Ico' added
+2021-05-06 13:02:11,049 - INFO - root - Plugin 'Compare' added
+2021-05-06 13:02:11,050 - INFO - root - Plugin 'Pools' added
+2021-05-06 13:02:11,054 - INFO - root - Plugin 'Price' added
+2021-05-06 13:02:11,058 - INFO - root - Plugin 'Worst' added
+2021-05-06 13:02:11,059 - INFO - root - Plugin 'Fiftyone' added
+2021-05-06 13:02:11,069 - INFO - root - Plugin 'Team' added
+2021-05-06 13:02:11,071 - INFO - root - Plugin 'Start' added
+2021-05-06 13:02:11,076 - INFO - root - Plugin 'Top' added
+2021-05-06 13:02:11,079 - INFO - root - Plugin 'Shutdown' added
+2021-05-06 13:02:11,079 - INFO - root - Plugin 'Help' added
+2021-05-06 13:02:11,094 - INFO - root - Plugin 'Restart' added
+2021-05-06 13:02:11,097 - INFO - root - Plugin 'Decentralized' added
+2021-05-06 13:02:11,103 - INFO - root - Plugin 'News' added
+2021-05-06 13:02:11,310 - INFO - root - Plugin 'Whitepaper' added
+2021-05-06 13:02:11,519 - INFO - root - Plugin 'Twitter' added
+2021-05-06 13:02:14,213 - INFO - root - Plugin 'Global' added
+2021-05-06 13:02:14,214 - INFO - root - Plugin 'Chart' added
+2021-05-06 13:02:14,219 - INFO - root - Plugin 'Trends' added
+2021-05-06 13:02:14,348 - INFO - root - Plugin 'Candlestick' added
+2021-05-06 13:02:14,351 - INFO - root - Starting Caching
+2021-05-06 13:02:48,918 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-06 13:11:25,701 - ERROR - root - Timed out - {'update_id': 406256743, 'message': {'message_id': 184, 'date': 1620295877, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/m xmr', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'en'}}}
+2021-05-06 13:43:06,287 - INFO - root - Plugin 'Update' added
+2021-05-06 13:43:06,289 - INFO - root - Plugin 'Feedback' added
+2021-05-06 13:43:06,309 - INFO - root - Plugin 'Backup' added
+2021-05-06 13:43:06,323 - INFO - root - Plugin 'Admin' added
+2021-05-06 13:43:06,347 - INFO - root - Plugin 'Shutdown' added
+2021-05-06 13:43:06,354 - INFO - root - Plugin 'Manual' added
+2021-05-06 13:43:06,376 - INFO - root - Plugin 'Search' added
+2021-05-06 13:43:06,376 - INFO - root - Plugin 'Bpmn' added
+2021-05-06 13:43:06,380 - INFO - root - Plugin 'Marketcap' added
+2021-05-06 13:43:06,385 - INFO - root - Plugin 'Restart' added
+2021-05-06 13:43:06,387 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-06 13:43:06,388 - INFO - root - Plugin 'Roi' added
+2021-05-06 13:43:06,390 - INFO - root - Plugin 'Donate' added
+2021-05-06 13:43:06,393 - INFO - root - Plugin 'Repeat' added
+2021-05-06 13:43:06,395 - INFO - root - Plugin 'News' added
+2021-05-06 13:43:06,403 - INFO - root - Plugin 'Worst' added
+2021-05-06 13:43:06,407 - INFO - root - Plugin 'Volume' added
+2021-05-06 13:43:06,409 - INFO - root - Plugin 'Events' added
+2021-05-06 13:43:06,412 - INFO - root - Plugin 'Description' added
+2021-05-06 13:43:06,425 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-06 13:43:06,428 - INFO - root - Plugin 'Team' added
+2021-05-06 13:43:06,439 - INFO - root - Plugin 'Value' added
+2021-05-06 13:43:06,450 - INFO - root - Plugin 'Compare' added
+2021-05-06 13:43:06,450 - INFO - root - Plugin 'Help' added
+2021-05-06 13:43:06,452 - INFO - root - Plugin 'Developer' added
+2021-05-06 13:43:06,452 - INFO - root - Plugin 'Best' added
+2021-05-06 13:43:06,457 - INFO - root - Plugin 'Stats' added
+2021-05-06 13:43:06,464 - INFO - root - Plugin 'Top' added
+2021-05-06 13:43:06,467 - INFO - root - Plugin 'People' added
+2021-05-06 13:43:06,467 - INFO - root - Plugin 'Ico' added
+2021-05-06 13:43:06,471 - INFO - root - Plugin 'About' added
+2021-05-06 13:43:06,472 - INFO - root - Plugin 'Change' added
+2021-05-06 13:43:06,472 - INFO - root - Plugin 'Market' added
+2021-05-06 13:43:06,475 - INFO - root - Plugin 'Pools' added
+2021-05-06 13:43:06,476 - INFO - root - Plugin 'Start' added
+2021-05-06 13:43:06,477 - INFO - root - Plugin 'Logfile' added
+2021-05-06 13:43:06,478 - INFO - root - Plugin 'Social' added
+2021-05-06 13:43:06,481 - INFO - root - Plugin 'Wallets' added
+2021-05-06 13:43:06,482 - INFO - root - Plugin 'Decentralized' added
+2021-05-06 13:43:06,482 - INFO - root - Plugin 'Exchanges' added
+2021-05-06 13:43:06,482 - INFO - root - Plugin 'Fiftyone' added
+2021-05-06 13:43:06,483 - INFO - root - Plugin 'Info' added
+2021-05-06 13:43:06,496 - INFO - root - Plugin 'Price' added
+2021-05-06 13:43:06,759 - INFO - root - Plugin 'Whitepaper' added
+2021-05-06 13:43:06,956 - INFO - root - Plugin 'Twitter' added
+2021-05-06 13:43:09,580 - INFO - root - Plugin 'Global' added
+2021-05-06 13:43:09,582 - INFO - root - Plugin 'Chart' added
+2021-05-06 13:43:09,586 - INFO - root - Plugin 'Trends' added
+2021-05-06 13:43:09,709 - INFO - root - Plugin 'Candlestick' added
+2021-05-06 13:43:09,713 - INFO - root - Starting Caching
+2021-05-06 13:43:13,947 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-06 13:48:20,030 - WARNING - telegram.vendor.ptb_urllib3.urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x11453fb50>: Failed to establish a new connection: [Errno 50] Network is down')': /bot1836642794:AAFZGQTSM4Z4zoNUoqf5uYXhofjg0V9i9bI/getUpdates

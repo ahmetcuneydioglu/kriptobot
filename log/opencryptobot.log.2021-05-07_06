@@ -1,0 +1,68 @@
+2021-05-07 06:39:27,609 - WARNING - telegram.vendor.ptb_urllib3.urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x112c047d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot1836642794:AAFZGQTSM4Z4zoNUoqf5uYXhofjg0V9i9bI/getUpdates
+2021-05-07 06:39:28,399 - WARNING - telegram.vendor.ptb_urllib3.urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1133c6990>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot1836642794:AAFZGQTSM4Z4zoNUoqf5uYXhofjg0V9i9bI/getUpdates
+2021-05-07 06:39:28,407 - WARNING - telegram.vendor.ptb_urllib3.urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x112c01050>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot1836642794:AAFZGQTSM4Z4zoNUoqf5uYXhofjg0V9i9bI/getUpdates
+2021-05-07 06:39:28,414 - ERROR - telegram.ext.updater - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1836642794:AAFZGQTSM4Z4zoNUoqf5uYXhofjg0V9i9bI/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1133b92d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-07 06:39:28,422 - ERROR - root - urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1836642794:AAFZGQTSM4Z4zoNUoqf5uYXhofjg0V9i9bI/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1133b92d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')) - Class: TelegramBot - None
+2021-05-07 06:39:40,884 - ERROR - root - Timed out - {'update_id': 406256901, 'message': {'message_id': 367, 'date': 1620349581, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/best hour', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 5}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'tr'}}}
+2021-05-07 06:39:47,008 - ERROR - root - JSONDecodeError('Expecting value: line 1 column 1 (char 0)') - Expecting value: line 1 column 1 (char 0) - Class: Best - {'update_id': 406256901, 'message': {'message_id': 367, 'date': 1620349581, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/best hour', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 5}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'tr'}}}
+2021-05-07 06:39:51,862 - INFO - root - Plugin 'Backup' added
+2021-05-07 06:39:51,888 - INFO - root - Plugin 'Feedback' added
+2021-05-07 06:39:51,893 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-07 06:39:51,898 - INFO - root - Plugin 'Start' added
+2021-05-07 06:39:51,901 - INFO - root - Plugin 'Restart' added
+2021-05-07 06:39:51,902 - INFO - root - Plugin 'Update' added
+2021-05-07 06:39:51,906 - INFO - root - Plugin 'About' added
+2021-05-07 06:39:51,909 - INFO - root - Plugin 'Change' added
+2021-05-07 06:39:51,918 - INFO - root - Plugin 'Marketcap' added
+2021-05-07 06:39:51,918 - INFO - root - Plugin 'Shutdown' added
+2021-05-07 06:39:51,919 - INFO - root - Plugin 'People' added
+2021-05-07 06:39:51,920 - INFO - root - Plugin 'Team' added
+2021-05-07 06:39:51,927 - INFO - root - Plugin 'Help' added
+2021-05-07 06:39:51,931 - INFO - root - Plugin 'Ico' added
+2021-05-07 06:39:51,932 - INFO - root - Plugin 'Market' added
+2021-05-07 06:39:51,932 - INFO - root - Plugin 'Stats' added
+2021-05-07 06:39:51,934 - INFO - root - Plugin 'Description' added
+2021-05-07 06:39:51,934 - INFO - root - Plugin 'News' added
+2021-05-07 06:39:51,935 - INFO - root - Plugin 'Bpmn' added
+2021-05-07 06:39:51,942 - INFO - root - Plugin 'Wallets' added
+2021-05-07 06:39:51,946 - INFO - root - Plugin 'Events' added
+2021-05-07 06:39:51,958 - INFO - root - Plugin 'Value' added
+2021-05-07 06:39:51,959 - INFO - root - Plugin 'Social' added
+2021-05-07 06:39:51,965 - INFO - root - Plugin 'Volume' added
+2021-05-07 06:39:51,965 - INFO - root - Plugin 'Top' added
+2021-05-07 06:39:51,970 - INFO - root - Plugin 'Admin' added
+2021-05-07 06:39:51,972 - INFO - root - Plugin 'Search' added
+2021-05-07 06:39:51,974 - INFO - root - Plugin 'Roi' added
+2021-05-07 06:39:51,975 - INFO - root - Plugin 'Compare' added
+2021-05-07 06:39:51,991 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-07 06:39:51,995 - INFO - root - Plugin 'Worst' added
+2021-05-07 06:39:51,999 - INFO - root - Plugin 'Exchanges' added
+2021-05-07 06:39:52,000 - INFO - root - Plugin 'Logfile' added
+2021-05-07 06:39:52,004 - INFO - root - Plugin 'Info' added
+2021-05-07 06:39:52,005 - INFO - root - Plugin 'Decentralized' added
+2021-05-07 06:39:52,013 - INFO - root - Plugin 'Repeat' added
+2021-05-07 06:39:52,014 - INFO - root - Plugin 'Developer' added
+2021-05-07 06:39:52,015 - INFO - root - Plugin 'Pools' added
+2021-05-07 06:39:52,015 - INFO - root - Plugin 'Donate' added
+2021-05-07 06:39:52,022 - INFO - root - Plugin 'Manual' added
+2021-05-07 06:39:52,022 - INFO - root - Plugin 'Price' added
+2021-05-07 06:39:52,023 - INFO - root - Plugin 'Fiftyone' added
+2021-05-07 06:39:52,023 - INFO - root - Plugin 'Best' added
+2021-05-07 06:39:52,247 - INFO - root - Plugin 'Whitepaper' added
+2021-05-07 06:39:52,423 - INFO - root - Plugin 'Twitter' added
+2021-05-07 06:39:54,919 - INFO - root - Plugin 'Global' added
+2021-05-07 06:39:54,921 - INFO - root - Plugin 'Chart' added
+2021-05-07 06:39:54,928 - INFO - root - Plugin 'Trends' added
+2021-05-07 06:39:55,031 - INFO - root - Plugin 'Candlestick' added
+2021-05-07 06:39:55,034 - INFO - root - Starting Caching
+2021-05-07 06:39:57,131 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable

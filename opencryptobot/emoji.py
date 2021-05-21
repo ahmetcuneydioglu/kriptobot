@@ -1,0 +1,11 @@
+INFO = "ℹ"  # Info
+ERROR = "‼"  # Error
+WAIT = "⏳"  # Waiting
+NOTIFY = "🔔"  # Notification
+TOP = "👍"  # Thanks
+GOODBYE = "👋"  # Shutdown
+CHECK = "✅"  # Task done
+NO_ENTRY = "🚫"  # Rate limit reached
+CANCEL = "❌"  # Repeater deleted
+HEART = "❤"  # Favorite count
+REPEAT = "🔄"  # Retweet count

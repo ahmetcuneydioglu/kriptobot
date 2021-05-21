@@ -1,0 +1,29 @@
+2021-05-06 23:11:43,694 - ERROR - root - Timed out - {'update_id': 406256824, 'message': {'message_id': 330, 'date': 1620331893, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/re', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'tr'}}}
+2021-05-06 23:16:17,974 - ERROR - root - Timed out - {'update_id': 406256825, 'message': {'message_id': 7917, 'date': 1620332165, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/re i=1h /p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-06 23:30:09,550 - INFO - root - Starting Caching
+2021-05-06 23:30:19,564 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-06 23:42:20,979 - ERROR - root - Timed out - {'update_id': 406256831, 'message': {'message_id': 332, 'date': 1620333730, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/51 btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'tr'}}}
+2021-05-06 23:47:59,930 - ERROR - telegram.ext.dispatcher - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 106, in _save_data
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugin.py", line 73, in _send_typing_action
+    return func(self, bot, update, **kwargs)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/plugins/price.py", line 80, in get_action
+    for ticker_len in result["tickers"]:
+TypeError: list indices must be integers or slices, not str
+2021-05-06 23:59:06,976 - ERROR - root - Timed out - {'update_id': 406256852, 'message': {'message_id': 357, 'date': 1620334736, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/ex binance', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'tr'}}}
