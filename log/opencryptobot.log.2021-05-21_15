@@ -1,0 +1,64 @@
+2021-05-21 15:56:39,622 - ERROR - root - Timed out - {'update_id': 406256825, 'message': {'message_id': 7917, 'date': 1620332165, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-21 16:18:04,599 - INFO - root - Plugin 'Backup' added
+2021-05-21 16:18:04,618 - INFO - root - Plugin 'Feedback' added
+2021-05-21 16:18:04,621 - INFO - root - Plugin 'Description' added
+2021-05-21 16:18:04,623 - INFO - root - Plugin 'Admin' added
+2021-05-21 16:18:04,624 - INFO - root - Plugin 'About' added
+2021-05-21 16:18:04,625 - INFO - root - Plugin 'Value' added
+2021-05-21 16:18:04,627 - INFO - root - Plugin 'Ico' added
+2021-05-21 16:18:04,629 - INFO - root - Plugin 'Shutdown' added
+2021-05-21 16:18:04,634 - INFO - root - Plugin 'Update' added
+2021-05-21 16:18:04,647 - INFO - root - Plugin 'Restart' added
+2021-05-21 16:18:04,648 - INFO - root - Plugin 'Compare' added
+2021-05-21 16:18:04,650 - INFO - root - Plugin 'Logfile' added
+2021-05-21 16:18:04,653 - INFO - root - Plugin 'Start' added
+2021-05-21 16:18:04,662 - INFO - root - Plugin 'Change' added
+2021-05-21 16:18:04,662 - INFO - root - Plugin 'Top' added
+2021-05-21 16:18:04,664 - INFO - root - Plugin 'Market' added
+2021-05-21 16:18:04,665 - INFO - root - Plugin 'Stats' added
+2021-05-21 16:18:04,670 - INFO - root - Plugin 'Team' added
+2021-05-21 16:18:04,673 - INFO - root - Plugin 'Help' added
+2021-05-21 16:18:04,674 - INFO - root - Plugin 'Manual' added
+2021-05-21 16:18:04,677 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-21 16:18:04,681 - INFO - root - Plugin 'Donate' added
+2021-05-21 16:18:04,683 - INFO - root - Plugin 'Developer' added
+2021-05-21 16:18:04,683 - INFO - root - Plugin 'Repeat' added
+2021-05-21 16:18:04,688 - INFO - root - Plugin 'Social' added
+2021-05-21 16:18:04,689 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-21 16:18:04,690 - INFO - root - Plugin 'Events' added
+2021-05-21 16:18:04,691 - INFO - root - Plugin 'Worst' added
+2021-05-21 16:18:04,691 - INFO - root - Plugin 'Volume' added
+2021-05-21 16:18:04,692 - INFO - root - Plugin 'Best' added
+2021-05-21 16:18:04,694 - INFO - root - Plugin 'People' added
+2021-05-21 16:18:04,698 - INFO - root - Plugin 'Pools' added
+2021-05-21 16:18:04,699 - INFO - root - Plugin 'Marketcap' added
+2021-05-21 16:18:04,702 - INFO - root - Plugin 'Decentralized' added
+2021-05-21 16:18:04,714 - INFO - root - Plugin 'Exchanges' added
+2021-05-21 16:18:04,717 - INFO - root - Plugin 'Info' added
+2021-05-21 16:18:04,724 - INFO - root - Plugin 'Bpmn' added
+2021-05-21 16:18:04,725 - INFO - root - Plugin 'Price' added
+2021-05-21 16:18:04,728 - INFO - root - Plugin 'Search' added
+2021-05-21 16:18:04,729 - INFO - root - Plugin 'News' added
+2021-05-21 16:18:04,730 - INFO - root - Plugin 'Wallets' added
+2021-05-21 16:18:04,731 - INFO - root - Plugin 'Roi' added
+2021-05-21 16:18:04,750 - INFO - root - Plugin 'Fiftyone' added
+2021-05-21 16:18:04,964 - INFO - root - Plugin 'Whitepaper' added
+2021-05-21 16:18:05,146 - INFO - root - Plugin 'Twitter' added
+2021-05-21 16:18:07,807 - INFO - root - Plugin 'Global' added
+2021-05-21 16:18:07,808 - INFO - root - Plugin 'Chart' added
+2021-05-21 16:18:07,814 - INFO - root - Plugin 'Trends' added
+2021-05-21 16:18:07,913 - INFO - root - Plugin 'Candlestick' added
+2021-05-21 16:18:07,918 - INFO - root - Starting Caching
+2021-05-21 16:18:10,149 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-21 16:18:10,469 - ERROR - root - HTTPError('404 Client Error: Not Found for url: https://api.github.com/repos/None/None/releases/latest')
+2021-05-21 16:33:43,844 - ERROR - root - Timed out - {'update_id': 406258967, 'message': {'message_id': 497, 'date': 1621604013, 'chat': {'id': 1062954233, 'type': 'private', 'username': 'paemmisyon', 'first_name': 'Paemisyon'}, 'text': '/s btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1062954233, 'first_name': 'Paemisyon', 'is_bot': False, 'username': 'paemmisyon', 'language_code': 'tr'}}}

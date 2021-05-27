@@ -1,1 +1,62 @@
-2021-05-21 15:56:39,622 - ERROR - root - Timed out - {'update_id': 406256825, 'message': {'message_id': 7917, 'date': 1620332165, 'chat': {'id': -1001216334216, 'type': 'supergroup', 'title': 'KRİPTO PUSULA', 'username': 'kriptopusulasi'}, 'text': '/p btc', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}, {'type': 'bot_command', 'offset': 9, 'length': 2}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1087968824, 'first_name': 'Group', 'is_bot': True, 'username': 'GroupAnonymousBot'}}}
+2021-05-27 23:42:58,380 - INFO - root - Plugin 'Backup' added
+2021-05-27 23:42:58,387 - INFO - root - Plugin 'Update' added
+2021-05-27 23:42:58,416 - INFO - root - Plugin 'Start' added
+2021-05-27 23:42:58,451 - INFO - root - Plugin 'Help' added
+2021-05-27 23:42:58,455 - INFO - root - Plugin 'Feedback' added
+2021-05-27 23:42:58,457 - INFO - root - Plugin 'Description' added
+2021-05-27 23:42:58,460 - INFO - root - Plugin 'Admin' added
+2021-05-27 23:42:58,460 - INFO - root - Plugin 'Manual' added
+2021-05-27 23:42:58,462 - WARNING - root - File 'alert.py' can't be loaded as a plugin: module 'opencryptobot.plugins.alert' has no attribute 'Alert'
+2021-05-27 23:42:58,464 - INFO - root - Plugin 'Donate' added
+2021-05-27 23:42:58,472 - INFO - root - Plugin 'Repeat' added
+2021-05-27 23:42:58,475 - INFO - root - Plugin 'Alltimehigh' added
+2021-05-27 23:42:58,487 - INFO - root - Plugin 'Search' added
+2021-05-27 23:42:58,490 - INFO - root - Plugin 'About' added
+2021-05-27 23:42:58,496 - INFO - root - Plugin 'Value' added
+2021-05-27 23:42:58,507 - INFO - root - Plugin 'Change' added
+2021-05-27 23:42:58,510 - INFO - root - Plugin 'Volume' added
+2021-05-27 23:42:58,523 - INFO - root - Plugin 'Worst' added
+2021-05-27 23:42:58,532 - INFO - root - Plugin 'Bpmn' added
+2021-05-27 23:42:58,537 - INFO - root - Plugin 'Shutdown' added
+2021-05-27 23:42:58,538 - INFO - root - Plugin 'Restart' added
+2021-05-27 23:42:58,540 - INFO - root - Plugin 'Compare' added
+2021-05-27 23:42:58,543 - INFO - root - Plugin 'Ico' added
+2021-05-27 23:42:58,543 - INFO - root - Plugin 'Logfile' added
+2021-05-27 23:42:58,548 - INFO - root - Plugin 'Best' added
+2021-05-27 23:42:58,548 - INFO - root - Plugin 'People' added
+2021-05-27 23:42:58,550 - INFO - root - Plugin 'Decentralized' added
+2021-05-27 23:42:58,552 - INFO - root - Plugin 'Social' added
+2021-05-27 23:42:58,555 - INFO - root - Plugin 'Developer' added
+2021-05-27 23:42:58,556 - INFO - root - Plugin 'Events' added
+2021-05-27 23:42:58,564 - INFO - root - Plugin 'Team' added
+2021-05-27 23:42:58,569 - INFO - root - Plugin 'Stats' added
+2021-05-27 23:42:58,572 - INFO - root - Plugin 'Fiftyone' added
+2021-05-27 23:42:58,585 - INFO - root - Plugin 'Pools' added
+2021-05-27 23:42:58,586 - INFO - root - Plugin 'Wallets' added
+2021-05-27 23:42:58,587 - INFO - root - Plugin 'Info' added
+2021-05-27 23:42:58,589 - INFO - root - Plugin 'Marketcap' added
+2021-05-27 23:42:58,590 - INFO - root - Plugin 'Exchanges' added
+2021-05-27 23:42:58,591 - INFO - root - Plugin 'Top' added
+2021-05-27 23:42:58,591 - INFO - root - Plugin 'News' added
+2021-05-27 23:42:58,593 - INFO - root - Plugin 'Market' added
+2021-05-27 23:42:58,599 - INFO - root - Plugin 'Roi' added
+2021-05-27 23:42:58,615 - INFO - root - Plugin 'Price' added
+2021-05-27 23:42:58,873 - INFO - root - Plugin 'Whitepaper' added
+2021-05-27 23:42:59,094 - INFO - root - Plugin 'Twitter' added
+2021-05-27 23:43:02,293 - INFO - root - Plugin 'Global' added
+2021-05-27 23:43:02,295 - INFO - root - Plugin 'Chart' added
+2021-05-27 23:43:02,302 - INFO - root - Plugin 'Trends' added
+2021-05-27 23:43:02,415 - INFO - root - Plugin 'Candlestick' added
+2021-05-27 23:43:02,421 - INFO - root - Starting Caching
+2021-05-27 23:43:06,471 - ERROR - JobQueue - An uncaught error was raised while executing job refresh
+Traceback (most recent call last):
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 245, in tick
+    job.run(self.bot)
+  File "/Users/ahmetcnd/.local/share/virtualenvs/openCryptoBot-D8P4_yx3/lib/python3.7/site-packages/telegram/ext/jobqueue.py", line 372, in run
+    self.callback(bot, self)
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 23, in refresh
+    APICache.refresh_coinmarketcap_coin_list()
+  File "/Users/ahmetcnd/Documents/telegrambot/openCryptoBot/opencryptobot/api/apicache.py", line 39, in refresh_coinmarketcap_coin_list
+    APICache.cmc_coin_list = Market().listings()["data"]
+TypeError: 'JSONDecodeError' object is not subscriptable
+2021-05-27 23:43:06,799 - ERROR - root - HTTPError('404 Client Error: Not Found for url: https://api.github.com/repos/None/None/releases/latest')
