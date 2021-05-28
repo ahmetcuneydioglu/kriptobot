@@ -1,1 +1,1 @@
-worker: python3 opencryptobot/telegrambot.py
+worker: python3 opencryptobot/start.py
